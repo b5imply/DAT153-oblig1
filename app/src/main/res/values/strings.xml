@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Oblig1</string>
+    <string name="mainGalleryButtonText">Gallery</string>
+    <string name="mainListButtonText">List of People</string>
+    <string name="mainLearningButtonText">Learning Mode</string>
+    <string name="title_person_list">People</string>
+    <string name="title_person_detail">Person Detail</string>
+    <string name="title_activity_list_of_person">Person List</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="personCreateSubmit">Godta</string>
+    <string name="personCreate_name">Name</string>
+    <string name="personCreate_imageButton">Select Image from Gallery</string>
+    <string name="personCreate_takePhotoText">Take Picture</string>
+    <string name="title_activity_learning_avtivity">LearningAvtivity</string>
+    <string name="learningButtonSubmitText">Guess</string>
+    <string name="learningEditTextHint">Enter a name here</string>
+    <string name="mainClearButtonText">Clear</string>
+    <string-array name="images"></string-array>
+</resources>
