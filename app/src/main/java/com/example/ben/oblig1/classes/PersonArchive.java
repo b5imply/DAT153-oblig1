@@ -16,7 +16,7 @@ public class PersonArchive {
 
     public static final List<People> ITEMS = new ArrayList<People>();
     public static final Map<String, People> ITEM_MAP = new HashMap<String, People>();
-    private static final String DEFAULT_URI =
+    public static final String DEFAULT_URI =
             "android.resource://com.example.ben.oblig1/drawable/img_profile_default";
     private static final String DEFAULT_NAME = "Benjamin";
     private static int id_count = 0;

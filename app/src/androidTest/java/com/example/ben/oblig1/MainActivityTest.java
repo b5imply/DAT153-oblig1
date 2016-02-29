@@ -1,19 +1,17 @@
 package com.example.ben.oblig1;
 
-import android.app.Application;
 import android.test.ActivityInstrumentationTestCase2;
-import android.test.ApplicationTestCase;
 import android.test.suitebuilder.annotation.SmallTest;
 import android.widget.Button;
 
 /**
  * <a href="http://d.android.com/tools/testing/testing_android.html">Testing Fundamentals</a>
  */
-public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivity> {
+public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
 
     MainActivity activity;
 
-    public ApplicationTest() {
+    public MainActivityTest() {
         super(MainActivity.class);
     }
 
@@ -41,8 +39,8 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2<MainActivi
         assertNotNull(button);
     }
 
-    @Override
-    protected void tearDown() throws Exception {
-        super.tearDown();
+    //Expresso test
+    public void testListButtonClicked(){
+
     }
 }
